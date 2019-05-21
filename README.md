@@ -1,9 +1,6 @@
 # reproducible-image-denoising-state-of-the-art
-Collection of popular and reproducible image restoration works
-
-Criteria: works must have codes available, and the reproducible results demonstrate state-of-the-art performances.
-
-This collection is inspired by the [summary of Bihan Wen](https://github.com/wenbihan/reproducible-image-denoising-state-of-the-art), [summary by flyywh](https://github.com/flyywh/Image-Denoising-State-of-the-art)
+State-of-the-arts of image restoration work. 
+This collection is inspired and re-organized from the [summary of Bihan Wen](https://github.com/wenbihan/reproducible-image-denoising-state-of-the-art), [summary by flyywh](https://github.com/flyywh/Image-Denoising-State-of-the-art).
 
 
 ## Image Denoising Single Task
