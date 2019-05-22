@@ -7,10 +7,20 @@ This list is maintained by [Yuqian Zhou](http://yuqianzhou.com/) at [IFP UIUC](h
 Collections of super-resolution are initialy organized from the [survey of SISR](https://arxiv.org/pdf/1902.06068.pdf). Then it will be continuously maintained by [IFP](https://ifp-uiuc.github.io/).
 ### Supervised Methods
 #### Residual Learning
- * VDSR [[Web]](https://arxiv.org/abs/1511.04587) [[Code]](https://www.mathworks.com/matlabcentral/fileexchange/44090-image-denoising-based-on-non-local-means-filter-and-its-method-noise-thresholding?focused=3806802&tab=function) [[PDF]](https://arxiv.org/pdf/1511.04587.pdf)
+ * VDSR [[Web]](https://arxiv.org/abs/1511.04587) [[Code]](https://github.com/twtygqyy/pytorch-vdsr) [[PDF]](https://arxiv.org/pdf/1511.04587.pdf)
    * Accurate image superresolution using very deep convolutional networks (CVPR16), Kim et al.
-
-
+ * Memnet [[Web]](https://arxiv.org/abs/1708.02209) [[Code]](https://github.com/tyshiwo/MemNet) [[PDF]](http://cvlab.cse.msu.edu/pdfs/Image_Restoration%20using_Persistent_Memory_Network.pdf)
+   * Memnet: A persistent memory network for image restoration(ICCV17), Tai et al.
+ * RED-Net[[Web]](https://arxiv.org/abs/1603.09056) [[Code]](https://github.com/yjn870/REDNet-pytorch) [[PDF]](https://arxiv.org/pdf/1603.09056.pdf)
+   * Image Restoration Using Very Deep Convolutional Encoder-Decoder Networks with Symmetric Skip Connections(NIPS2016), Mao et al.
+ *  [[Web]]() [[Code]]() [[PDF]]()
+   * (),  et al.
+ *  [[Web]]() [[Code]]() [[PDF]]()
+   * (),  et al.
+ *  [[Web]]() [[Code]]() [[PDF]]()
+   * (),  et al.
+ *  [[Web]]() [[Code]]() [[PDF]]()
+   * (),  et al.
 #### Recursive Learning
 #### Multi-path Learning
 #### Dense Connections
