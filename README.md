@@ -3,10 +3,10 @@ State-of-the-arts of image restoration work. Some of the codes may not be offici
 ## Information Sources
 This collection is inspired and re-organized from the following sources,
  * Denoising
-   * [summary of Bihan Wen](https://github.com/wenbihan/reproducible-image-denoising-state-of-the-art)
+   * [summary by Bihan Wen](https://github.com/wenbihan/reproducible-image-denoising-state-of-the-art)
    * [summary by flyywh](https://github.com/flyywh/Image-Denoising-State-of-the-art)
  * Super-resolution
-   * [summary of yapengtian](https://github.com/YapengTian/Single-Image-Super-Resolution)
+   * [summary by yapengtian](https://github.com/YapengTian/Single-Image-Super-Resolution)
    * [survey of SISR](https://arxiv.org/pdf/1902.06068.pdf)
 
 ## Image Super-resolution
