@@ -6,7 +6,18 @@ This list is maintained by [Yuqian Zhou](http://yuqianzhou.com/) at [IFP UIUC](h
 ## Image Super-resolution
 Collections of super-resolution are initialy organized from the [survey of SISR](https://arxiv.org/pdf/1902.06068.pdf). Then it will be continuously maintained by [IFP](https://ifp-uiuc.github.io/).
 ### Supervised Methods
+#### Residual Learning
 
+
+
+#### Recursive Learning
+#### Multi-path Learning
+#### Dense Connections
+#### Attention-based
+#### Advanced Convolution
+#### Pixel-recursive
+#### Pyramid Pooling
+#### Wavelet Transform
 
 ### Unsupervised Methods
 
