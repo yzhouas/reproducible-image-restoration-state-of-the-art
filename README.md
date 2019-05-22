@@ -7,7 +7,8 @@ This list is maintained by [Yuqian Zhou](http://yuqianzhou.com/) at [IFP UIUC](h
 Collections of super-resolution are initialy organized from the [survey of SISR](https://arxiv.org/pdf/1902.06068.pdf). Then it will be continuously maintained by [IFP](https://ifp-uiuc.github.io/).
 ### Supervised Methods
 #### Residual Learning
-
+ * VDSR [[Web]](https://arxiv.org/abs/1511.04587) [[Code]](https://www.mathworks.com/matlabcentral/fileexchange/44090-image-denoising-based-on-non-local-means-filter-and-its-method-noise-thresholding?focused=3806802&tab=function) [[PDF]](https://arxiv.org/pdf/1511.04587.pdf)
+   * Accurate image superresolution using very deep convolutional networks (CVPR16), Kim et al.
 
 
 #### Recursive Learning
