@@ -1,8 +1,14 @@
-# reproducible-image-denoising-state-of-the-art
-State-of-the-arts of image restoration work. Some of the codes may not be official, please doulbe check them. The lists under each subsections may have overlaps.
-This collection is inspired and re-organized from the [summary of Bihan Wen](https://github.com/wenbihan/reproducible-image-denoising-state-of-the-art), [summary by flyywh](https://github.com/flyywh/Image-Denoising-State-of-the-art), [summary of yapengtian](https://github.com/YapengTian/Single-Image-Super-Resolution).
+# Reproducible-image-restoration-state-of-the-art
+State-of-the-arts of image restoration work. Some of the codes may not be official, please doulbe check them. The lists under each subsections may have overlaps. This list is maintained by [Yuqian Zhou](http://yuqianzhou.com/) at [IFP UIUC](https://ifp-uiuc.github.io/).
+## Information Sources
+This collection is inspired and re-organized from the following sources,
+ * Denoising
+   * [summary of Bihan Wen](https://github.com/wenbihan/reproducible-image-denoising-state-of-the-art)
+   * [summary by flyywh](https://github.com/flyywh/Image-Denoising-State-of-the-art)
+ * Super-resolution
+   * [summary of yapengtian](https://github.com/YapengTian/Single-Image-Super-Resolution)
+   * [survey of SISR](https://arxiv.org/pdf/1902.06068.pdf)
 
-This list is maintained by [Yuqian Zhou](http://yuqianzhou.com/) at [IFP UIUC](https://ifp-uiuc.github.io/).
 ## Image Super-resolution
 Collections of super-resolution are initialy organized from the [survey of SISR](https://arxiv.org/pdf/1902.06068.pdf). Then it will be continuously maintained by [IFP](https://ifp-uiuc.github.io/).
 ### Supervised Methods
