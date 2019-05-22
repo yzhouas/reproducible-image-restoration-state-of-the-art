@@ -1,5 +1,5 @@
 # reproducible-image-denoising-state-of-the-art
-State-of-the-arts of image restoration work. 
+State-of-the-arts of image restoration work. Some of the codes may not be official, please doulbe check them.
 This collection is inspired and re-organized from the [summary of Bihan Wen](https://github.com/wenbihan/reproducible-image-denoising-state-of-the-art), [summary by flyywh](https://github.com/flyywh/Image-Denoising-State-of-the-art).
 
 This list is maintained by [Yuqian Zhou](http://yuqianzhou.com/) at [IFP UIUC](https://ifp-uiuc.github.io/).
@@ -11,17 +11,27 @@ Collections of super-resolution are initialy organized from the [survey of SISR]
    * Accurate image superresolution using very deep convolutional networks (CVPR16), Kim et al.
  * Memnet [[Web]](https://arxiv.org/abs/1708.02209) [[Code]](https://github.com/tyshiwo/MemNet) [[PDF]](http://cvlab.cse.msu.edu/pdfs/Image_Restoration%20using_Persistent_Memory_Network.pdf)
    * Memnet: A persistent memory network for image restoration(ICCV17), Tai et al.
- * RED-Net[[Web]](https://arxiv.org/abs/1603.09056) [[Code]](https://github.com/yjn870/REDNet-pytorch) [[PDF]](https://arxiv.org/pdf/1603.09056.pdf)
+ * RED-Net [[Web]](https://arxiv.org/abs/1603.09056) [[Code]](https://github.com/yjn870/REDNet-pytorch) [[PDF]](https://arxiv.org/pdf/1603.09056.pdf)
    * Image Restoration Using Very Deep Convolutional Encoder-Decoder Networks with Symmetric Skip Connections(NIPS2016), Mao et al.
- *  [[Web]]() [[Code]]() [[PDF]]()
-   * (),  et al.
- *  [[Web]]() [[Code]]() [[PDF]]()
-   * (),  et al.
- *  [[Web]]() [[Code]]() [[PDF]]()
-   * (),  et al.
- *  [[Web]]() [[Code]]() [[PDF]]()
-   * (),  et al.
+ * DRRN [[Web]](http://cvlab.cse.msu.edu/project-super-resolution.html) [[Code]](https://github.com/tyshiwo/DRRN_CVPR17) [[PDF]](http://cvlab.cse.msu.edu/pdfs/Tai_Yang_Liu_CVPR2017.pdf)
+   * Image Super-Resolution via Deep Recursive Residual Network(CVPR17), Tai et al.
+ * IDN [[Web]](https://github.com/Zheng222/IDN-Caffe) [[Code]](https://github.com/Zheng222/IDN-Caffe) [[PDF]](https://arxiv.org/pdf/1803.09454.pdf)
+   * Fast and Accurate Single Image Super-Resolution via Information Distillation Network (CVPR18), Hui et al.
+ * EDSR  [[Web]](https://github.com/limbee/NTIRE2017) [[Code]](https://github.com/thstkdgus35/EDSR-PyTorch) [[PDF]](https://arxiv.org/pdf/1707.02921.pdf)
+   * Enhanced Deep Residual Networks for Single Image Super-Resolution(NTIRE2017), Lim et al.
+ * RCAN [[Web]](https://github.com/yulunzhang/RCAN) [[Code]](https://github.com/yulunzhang/RCAN) [[PDF]](https://arxiv.org/pdf/1807.02758.pdf)
+   * Image Super-Resolution Using Very Deep Residual Channel Attention Networks(ECCV18), Zhang et al.
+ * MSRN [[Web]](https://github.com/ehumss/MSRN_PyTorch) [[Code]](https://github.com/ehumss/MSRN_PyTorch) [[PDF]](http://openaccess.thecvf.com/content_ECCV_2018/papers/Juncheng_Li_Multi-scale_Residual_Network_ECCV_2018_paper.pdf)
+   * Multi-scale Residual Network for Image Super-Resolution(ECCV18),  Li et al.
+ * DSRN [[Web]](https://github.com/WeiHan3/dsrn) [[Code]](https://github.com/WeiHan3/dsrn) [[PDF]](https://arxiv.org/pdf/1805.02704.pdf)
+   * Image Super-resolution via Dual-state Recurrent Neural Networks (CVPR18), Han et al.
+
 #### Recursive Learning
+ *  [[Web]]() [[Code]]() [[PDF]]()
+   * (),  et al.
+ *  [[Web]]() [[Code]]() [[PDF]]()
+   * (),  et al.
+
 #### Multi-path Learning
 #### Dense Connections
 #### Attention-based
