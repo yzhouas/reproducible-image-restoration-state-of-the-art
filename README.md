@@ -11,6 +11,9 @@ This collection is inspired and re-organized from the following sources,
 
 ## Image Super-resolution
 ### Supervised Methods
+The deep learning based super-resolution starts from SRCNN.
+ * SRCNN [[Web]](http://mmlab.ie.cuhk.edu.hk/projects/SRCNN.html) [[Code]](http://mmlab.ie.cuhk.edu.hk/projects/SRCNN.html) [[PDF]](http://personal.ie.cuhk.edu.hk/~ccloy/files/eccv_2014_deepresolution.pdf)
+   * Image Super-Resolution Using Deep Convolutional Networks(TPAMI15), Dong et al.
 #### Residual Learning
  * VDSR [[Web]](https://arxiv.org/abs/1511.04587) [[Code]](https://github.com/twtygqyy/pytorch-vdsr) [[PDF]](https://arxiv.org/pdf/1511.04587.pdf)
    * Accurate image superresolution using very deep convolutional networks (CVPR16), Kim et al.
@@ -63,6 +66,19 @@ Better separate modeling performance, but increasing the parameter size greatly.
    * Explore HR-LR relationship
  * PixelSR [[Web]](https://arxiv.org/abs/1702.00783) [[Code]](https://github.com/nilboy/pixel-recursive-super-resolution) [[PDF]](https://arxiv.org/pdf/1702.00783.pdf)
    * Pixel Recursive Super Resolution(ICCV17), Dahl et al.
+ * MSRN [[Web]](https://github.com/ehumss/MSRN_PyTorch) [[Code]](https://github.com/ehumss/MSRN_PyTorch) [[PDF]](http://openaccess.thecvf.com/content_ECCV_2018/papers/Juncheng_Li_Multi-scale_Residual_Network_ECCV_2018_paper.pdf)
+   * Multi-scale Residual Network for Image Super-Resolution(ECCV18),  Li et al.
+   * Inspired by Inception Module
+   * Two convolution operations inside each block for multiple-scales 
+ * EDSR  [[Web]](https://github.com/limbee/NTIRE2017) [[Code]](https://github.com/thstkdgus35/EDSR-PyTorch) [[PDF]](https://arxiv.org/pdf/1707.02921.pdf)
+   * Enhanced Deep Residual Networks for Single Image Super-Resolution(NTIRE2017), Lim et al.
+   * Scale-specific Multi-path Learning
+   
+#### Dense Connections
+ *  [[Web]]() [[Code]]() [[PDF]]()
+   * (),  et al.
+ *  [[Web]]() [[Code]]() [[PDF]]()
+   * (),  et al.
  *  [[Web]]() [[Code]]() [[PDF]]()
    * (),  et al.
  *  [[Web]]() [[Code]]() [[PDF]]()
@@ -72,7 +88,6 @@ Better separate modeling performance, but increasing the parameter size greatly.
  *  [[Web]]() [[Code]]() [[PDF]]()
    * (),  et al.
    
-#### Dense Connections
 #### Attention-based
 #### Advanced Convolution
 #### Pixel-recursive
