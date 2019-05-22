@@ -1,5 +1,5 @@
 # reproducible-image-denoising-state-of-the-art
-State-of-the-arts of image restoration work. Some of the codes may not be official, please doulbe check them.
+State-of-the-arts of image restoration work. Some of the codes may not be official, please doulbe check them. The lists under each subsections may have overlaps.
 This collection is inspired and re-organized from the [summary of Bihan Wen](https://github.com/wenbihan/reproducible-image-denoising-state-of-the-art), [summary by flyywh](https://github.com/flyywh/Image-Denoising-State-of-the-art).
 
 This list is maintained by [Yuqian Zhou](http://yuqianzhou.com/) at [IFP UIUC](https://ifp-uiuc.github.io/).
@@ -27,12 +27,38 @@ Collections of super-resolution are initialy organized from the [survey of SISR]
    * Image Super-resolution via Dual-state Recurrent Neural Networks (CVPR18), Han et al.
 
 #### Recursive Learning
- *  [[Web]]() [[Code]]() [[PDF]]()
-   * (),  et al.
- *  [[Web]]() [[Code]]() [[PDF]]()
-   * (),  et al.
-
+Recurvise learning introduced in super-resolution is for larger receptive field and reduced parameters.
+ * DRCN [[Web]](https://github.com/jiny2001/deeply-recursive-cnn-tf) [[Code]](https://github.com/jiny2001/deeply-recursive-cnn-tf) [[PDF]](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Kim_Deeply-Recursive_Convolutional_Network_CVPR_2016_paper.pdf)
+   * Deeply-recursive convolutional network for image super-resolution(CVPR16), Kim et al.
+ * DRRN [[Web]](http://cvlab.cse.msu.edu/project-super-resolution.html) [[Code]](https://github.com/tyshiwo/DRRN_CVPR17) [[PDF]](http://cvlab.cse.msu.edu/pdfs/Tai_Yang_Liu_CVPR2017.pdf)
+   * Image Super-Resolution via Deep Recursive Residual Network(CVPR17), Tai et al.
+ * Memnet [[Web]](https://arxiv.org/abs/1708.02209) [[Code]](https://github.com/tyshiwo/MemNet) [[PDF]](http://cvlab.cse.msu.edu/pdfs/Image_Restoration%20using_Persistent_Memory_Network.pdf)
+   * Memnet: A persistent memory network for image restoration(ICCV17), Tai et al.
+ * CARN [[Web]](https://arxiv.org/abs/1803.08664) [[Code]](https://github.com/nmhkahn/CARN-pytorch) [[PDF]](https://arxiv.org/pdf/1803.08664.pdf)
+   * Fast, Accurate, and Lightweight Super-Resolution with Cascading Residual Network(ECCV18), Ahn et al.
+   
+ Recurvise learning can resolve large scaling factor problem by solving multiple smaller factor problems.
+ * DSRN [[Web]](https://github.com/WeiHan3/dsrn) [[Code]](https://github.com/WeiHan3/dsrn) [[PDF]](https://arxiv.org/pdf/1805.02704.pdf)
+   * Image Super-resolution via Dual-state Recurrent Neural Networks (CVPR18), Han et al.
+   * Explore HR-LR relationship
+ * LapSRN [[Web]](http://vllab.ucmerced.edu/wlai24/LapSRN/) [[Code]](https://github.com/phoenix104104/LapSRN) [[PDF]](https://arxiv.org/pdf/1704.03915.pdf)
+   * Deep Laplacian Pyramid Networks for Fast and Accurate Super-Resolution(CVPR17), Lai et al.
+ * MS-LapSRN [[Web]](https://arxiv.org/abs/1710.01992) [[Code]](https://github.com/phoenix104104/LapSRN) [[PDF]](https://arxiv.org/pdf/1710.01992.pdf)
+   * Fast and accurate image super-resolution with deep laplacian pyramid networks(TPAM18), Lai et al.
+ * NLRN[[Web]](https://github.com/Ding-Liu/NLRN) [[Code]](https://github.com/Ding-Liu/NLRN) [[PDF]](http://papers.nips.cc/paper/7439-non-local-recurrent-network-for-image-restoration.pdf)
+   * Non-Local Recurrent Network for Image Restoration (NeurIPS 2018), Liu et al.
+   
 #### Multi-path Learning
+ *  [[Web]]() [[Code]]() [[PDF]]()
+   * (),  et al.
+ *  [[Web]]() [[Code]]() [[PDF]]()
+   * (),  et al.
+ *  [[Web]]() [[Code]]() [[PDF]]()
+   * (),  et al.
+ *  [[Web]]() [[Code]]() [[PDF]]()
+   * (),  et al.
+ *  [[Web]]() [[Code]]() [[PDF]]()
+   * (),  et al.
 #### Dense Connections
 #### Attention-based
 #### Advanced Convolution
