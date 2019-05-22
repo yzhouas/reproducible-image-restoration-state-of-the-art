@@ -84,13 +84,13 @@ Better separate modeling performance, but increasing the parameter size greatly.
 #### Weekly-supervised
 #### Deep Image Prior
 ## Image Denoising
-#### Single-model
- * SF [[Web]](http://www.visinf.tu-darmstadt.de/vi_research/code/index.en.jsp#shrinkage_fields) [[Code]](https://github.com/uschmidt83/shrinkage-fields) [[PDF]](http://research.uweschmidt.org/pubs/cvpr14schmidt.pdf)
-   * Shrinkage Fields for Effective Image Restoration (CVPR 2014), Schmidt et al.
+#### Normal CNN
  * TNRD [[Web]](http://www.icg.tugraz.at/Members/Chenyunjin/about-yunjin-chen) [[Code]](https://www.dropbox.com/s/8j6b880m6ddxtee/TNRD-Codes.zip?dl=0) [[PDF]](https://arxiv.org/pdf/1508.02848.pdf)
    * Trainable nonlinear reaction diffusion: A flexible framework for fast and effective image restoration (TPAMI 2016), Chen et al.
- * RED [[Web]](https://bitbucket.org/chhshen/image-denoising/) [[Code]](https://bitbucket.org/chhshen/image-denoising/) [[PDF]](https://arxiv.org/pdf/1603.09056.pdf)
-   * Image Restoration Using Very Deep Convolutional Encoder-Decoder Networks with Symmetric Skip Connections (NIPS2016), Mao et al.
+ * SF [[Web]](http://www.visinf.tu-darmstadt.de/vi_research/code/index.en.jsp#shrinkage_fields) [[Code]](https://github.com/uschmidt83/shrinkage-fields) [[PDF]](http://research.uweschmidt.org/pubs/cvpr14schmidt.pdf)
+   * Shrinkage Fields for Effective Image Restoration (CVPR 2014), Schmidt et al.
+
+#### Residual Learning / DenseNet / Recursive Nets
  * DnCNN [[Web]](https://github.com/cszn/DnCNN) [[Code]](https://github.com/cszn/DnCNN) [[PDF]](https://arxiv.org/pdf/1608.03981v1.pdf)
    * Beyond a Gaussian Denoiser: Residual Learning of Deep CNN for Image Denoising (TIP2017), Zhang et al.
  * MemNet [[Web]](https://github.com/tyshiwo/MemNet) [[Code]](https://github.com/tyshiwo/MemNet) [[PDF]](http://cvlab.cse.msu.edu/pdfs/Image_Restoration%20using_Persistent_Memory_Network.pdf)
@@ -122,14 +122,17 @@ Better separate modeling performance, but increasing the parameter size greatly.
    * Non-Local Recurrent Network for Image Restoration (NIPS 2018), Liu et al.
  * RDN+ [[Web]](https://github.com/yulunzhang/RDN) [[Code]](https://github.com/yulunzhang/RDN) [[PDF]](https://arxiv.org/abs/1812.10477)
    * Residual Dense Network for Image Restoration (CVPR 2018), Zhang et al.
+#### UNet
+* RED [[Web]](https://bitbucket.org/chhshen/image-denoising/) [[Code]](https://bitbucket.org/chhshen/image-denoising/) [[PDF]](https://arxiv.org/pdf/1603.09056.pdf)
+   * Image Restoration Using Very Deep Convolutional Encoder-Decoder Networks with Symmetric Skip Connections (NIPS2016), Mao et al.
    
-#### Real Noise
+#### Focusing on Real Noise
  * CBDNet [[Web]](https://github.com/GuoShi28/CBDNet) [[Code]](https://github.com/GuoShi28/CBDNet) [[PDF]](https://arxiv.org/pdf/1807.04686.pdf)
    * Toward Convolutional Blind Denoising of Real Photographs (ECCV18), Guo et al.  
  * Pixel-shuffle (PD) [[Web]](https://github.com/yzhouas/PD-Denoising-pytorch) [[Code]](https://github.com/yzhouas/PD-Denoising-pytorch) [[PDF]](https://arxiv.org/abs/1904.03485)
    * When AWGN-based Denoiser Meets Real Noises(Arxiv2019), Zhou et al.
    
-#### Sparsity and Low-rankness Combined
+#### Combined with Sparsity and Low-rankness
  * STROLLR-2D [[PDF]](http://transformlearning.csl.illinois.edu/assets/Bihan/ConferencePapers/BihanICASSP2017strollr.pdf) [[Code]](https://github.com/wenbihan/strollr2d_icassp2017) 
    * When Sparsity Meets Low-Rankness: Transform Learning With Non-Local Low-Rank Constraint for Image Restoration (ICASSP 2017), Wen et al.
    
@@ -137,9 +140,6 @@ Better separate modeling performance, but increasing the parameter size greatly.
  * Meets High-level Tasks [[PDF]](https://arxiv.org/pdf/1706.04284.pdf) [[Code]](https://github.com/wenbihan/DeepDenoising) 
    * When Image Denoising Meets High-Level Vision Tasks: A Deep Learning Approach (IJCAI 2018), Liu et al.
 
-#### Image Noise Level Estimation
- * SINLE [[PDF]](http://www.ok.sc.e.titech.ac.jp/res/NLE/TIP2013-noise-level-estimation06607209.pdf) [[Code]](https://www.mathworks.com/matlabcentral/fileexchange/36921-noise-level-estimation-from-a-single-image) [[Slides]](https://wwwpub.zih.tu-dresden.de/~hh3/Hauptsem/SS16/noise.pdf)
-   * Single-image Noise Level Estimation for Blind Denoising (TIP 2014), Liu et al.
 
 ## Image Inpainting
 
@@ -154,17 +154,25 @@ Better separate modeling performance, but increasing the parameter size greatly.
 
 
 ## Novel Benchmark
+Novel benchmark is the ones captured in real-world senarios. 
+#### Super-resolution Benchmark  
+
+#### Denoising Benchmark
  * ReNOIR [[Web]](http://ani.stat.fsu.edu/~abarbu/Renoir.html) [[Data]](http://ani.stat.fsu.edu/~abarbu/Renoir.html) [[PDF]](https://arxiv.org/pdf/1409.8230.pdf)
    * RENOIR - A Dataset for Real Low-Light Image Noise Reduction (Arxiv 2014), Anaya, Barbu.   
  * Darmstadt [[Web]](https://noise.visinf.tu-darmstadt.de/) [[Data]](https://noise.visinf.tu-darmstadt.de/downloads/) [[PDF]](https://download.visinf.tu-darmstadt.de/papers/2017-cvpr-ploetz-benchmarking_denoising_algorithms-preprint.pdf)
    * Benchmarking Denoising Algorithms with Real Photographs (CVPR 2017), Tobias Plotz, Stefan Roth.
  * PolyU [[Web]](https://github.com/csjunxu/PolyU-Real-World-Noisy-Images-Dataset) [[Data]](https://github.com/csjunxu/PolyU-Real-World-Noisy-Images-Dataset) [[PDF]](https://arxiv.org/pdf/1804.02603.pdf)
    * Real-world Noisy Image Denoising: A New Benchmark (Arxiv), Xu et al.
-   
-## Commonly Used Restoration Dataset
+#### In-painting Benchmark
+
+#### Other Benchmark
+  
+## Commonly Used Training/Evaluation Dataset for All Restoration Tasks
+ * BSD [[Web]](https://www2.eecs.berkeley.edu/Research/Projects/CS/vision/bsds/)  
  * Kodak [[Web]](http://r0k.us/graphics/kodak/)
  * USC SIPI-Misc [[Web]](http://sipi.usc.edu/database/database.php?volume=misc) 
- * BSD [[Web]](https://www2.eecs.berkeley.edu/Research/Projects/CS/vision/bsds/)  
+
 
 ## Commonly Used Image Quality Metric Code
  * PSNR (Peak Signal-to-Noise Ratio) [[Wiki]](https://en.wikipedia.org/wiki/Peak_signal-to-noise_ratio) [[Matlab Code]](https://www.mathworks.com/help/images/ref/psnr.html) [[Python Code]](https://github.com/aizvorski/video-quality)
