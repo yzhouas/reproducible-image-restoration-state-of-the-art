@@ -10,7 +10,7 @@ This collection is inspired and re-organized from the following sources,
    * [survey of SISR](https://arxiv.org/pdf/1902.06068.pdf)
 
 ## Image Super-resolution
-Collections of super-resolution are initialy organized from the [survey of SISR](https://arxiv.org/pdf/1902.06068.pdf). Then it will be continuously maintained by [IFP](https://ifp-uiuc.github.io/).
+Collections of super-resolution are initialy organized from the [survey of SISR](https://arxiv.org/pdf/1902.06068.pdf). 
 ### Supervised Methods
 #### Residual Learning
  * VDSR [[Web]](https://arxiv.org/abs/1511.04587) [[Code]](https://github.com/twtygqyy/pytorch-vdsr) [[PDF]](https://arxiv.org/pdf/1511.04587.pdf)
