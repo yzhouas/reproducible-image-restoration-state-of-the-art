@@ -1,5 +1,5 @@
 # Reproducible-image-restoration-state-of-the-art
-State-of-the-arts of deep-learning-based image restoration work. Some of the codes may not be official, please doulbe check them. The lists under each subsections may have overlaps. This list is maintained by [Yuqian Zhou](http://yuqianzhou.com/) at [IFP UIUC](https://ifp-uiuc.github.io/).
+State-of-the-arts of deep-learning-based image restoration work. Some of the codes may not be official, please double check them. The lists under each subsections may have overlaps. This list is maintained by [Yuqian Zhou](http://yuqianzhou.com/) at [IFP UIUC](https://ifp-uiuc.github.io/).
 ## Information Sources
 This collection is inspired and re-organized from the following sources,
  * Denoising
@@ -29,6 +29,8 @@ The deep learning based super-resolution starts from SRCNN.
    * Enhanced Deep Residual Networks for Single Image Super-Resolution(NTIRE2017), Lim et al.
  * RCAN [[Web]](https://github.com/yulunzhang/RCAN) [[Code]](https://github.com/yulunzhang/RCAN) [[PDF]](https://arxiv.org/pdf/1807.02758.pdf)
    * Image Super-Resolution Using Very Deep Residual Channel Attention Networks(ECCV18), Zhang et al.
+ * RDN [[Web]](https://github.com/yulunzhang/RDN) [[Code]](https://github.com/yulunzhang/RDN) [[PDF]](https://arxiv.org/pdf/1802.08797.pdf)
+   * Residual Dense Network for Image Super-Resolution(CVPR18), Zhang et al.
  * MSRN [[Web]](https://github.com/ehumss/MSRN_PyTorch) [[Code]](https://github.com/ehumss/MSRN_PyTorch) [[PDF]](http://openaccess.thecvf.com/content_ECCV_2018/papers/Juncheng_Li_Multi-scale_Residual_Network_ECCV_2018_paper.pdf)
    * Multi-scale Residual Network for Image Super-Resolution(ECCV18),  Li et al.
  * DSRN [[Web]](https://github.com/WeiHan3/dsrn) [[Code]](https://github.com/WeiHan3/dsrn) [[PDF]](https://arxiv.org/pdf/1805.02704.pdf)
@@ -42,7 +44,7 @@ Recurvise learning introduced in super-resolution is for larger receptive field 
    * Image Super-Resolution via Deep Recursive Residual Network(CVPR17), Tai et al.
  * Memnet [[Web]](https://arxiv.org/abs/1708.02209) [[Code]](https://github.com/tyshiwo/MemNet) [[PDF]](http://cvlab.cse.msu.edu/pdfs/Image_Restoration%20using_Persistent_Memory_Network.pdf)
    * Memnet: A persistent memory network for image restoration(ICCV17), Tai et al.
- * CARN [[Web]](https://arxiv.org/abs/1803.08664) [[Code]](https://github.com/nmhkahn/CARN-pytorch) [[PDF]](https://arxiv.org/pdf/1803.08664.pdf)
+ * CARN-M [[Web]](https://arxiv.org/abs/1803.08664) [[Code]](https://github.com/nmhkahn/CARN-pytorch) [[PDF]](https://arxiv.org/pdf/1803.08664.pdf)
    * Fast, Accurate, and Lightweight Super-Resolution with Cascading Residual Network(ECCV18), Ahn et al.
  * NLRN[[Web]](https://github.com/Ding-Liu/NLRN) [[Code]](https://github.com/Ding-Liu/NLRN) [[PDF]](http://papers.nips.cc/paper/7439-non-local-recurrent-network-for-image-restoration.pdf)
    * Non-Local Recurrent Network for Image Restoration (NeurIPS 2018), Liu et al.
@@ -75,22 +77,35 @@ Better separate modeling performance, but increasing the parameter size greatly.
    * Scale-specific Multi-path Learning
    
 #### Dense Connections
- *  [[Web]]() [[Code]]() [[PDF]]()
-   * (),  et al.
- *  [[Web]]() [[Code]]() [[PDF]]()
-   * (),  et al.
- *  [[Web]]() [[Code]]() [[PDF]]()
-   * (),  et al.
- *  [[Web]]() [[Code]]() [[PDF]]()
-   * (),  et al.
- *  [[Web]]() [[Code]]() [[PDF]]()
-   * (),  et al.
- *  [[Web]]() [[Code]]() [[PDF]]()
-   * (),  et al.
-   
+ * SR-DenseNet [[Web]](https://github.com/kweisamx/TensorFlow-SR-DenseNet) [[Code]](https://github.com/kweisamx/TensorFlow-SR-DenseNet) [[PDF]](http://openaccess.thecvf.com/content_ICCV_2017/papers/Tong_Image_Super-Resolution_Using_ICCV_2017_paper.pdf)
+   * Image Super-Resolution Using Dense Skip Connections(CVPR17), Tong et al.
+ * Memnet [[Web]](https://arxiv.org/abs/1708.02209) [[Code]](https://github.com/tyshiwo/MemNet) [[PDF]](http://cvlab.cse.msu.edu/pdfs/Image_Restoration%20using_Persistent_Memory_Network.pdf)
+   * Memnet: A persistent memory network for image restoration(ICCV17), Tai et al.
+ * CARN [[Web]](https://arxiv.org/abs/1803.08664) [[Code]](https://github.com/nmhkahn/CARN-pytorch) [[PDF]](https://arxiv.org/pdf/1803.08664.pdf)
+   * Fast, Accurate, and Lightweight Super-Resolution with Cascading Residual Network(ECCV18), Ahn et al.   
+ * RDN [[Web]](https://github.com/yulunzhang/RDN) [[Code]](https://github.com/yulunzhang/RDN) [[PDF]](https://arxiv.org/pdf/1802.08797.pdf)
+   * Residual Dense Network for Image Super-Resolution(CVPR18), Zhang et al.
+ * ESRGAN [[Web]](https://github.com/xinntao/ESRGAN) [[Code]](https://github.com/xinntao/ESRGAN) [[PDF]](https://arxiv.org/pdf/1809.00219.pdf)
+   * ESRGAN: Enhanced Super-Resolution Generative Adversarial Networks (ECCVW18), Wang et al.
+ * DBPN [[Web]](https://github.com/alterzero/DBPN-Pytorch) [[Code]](https://github.com/alterzero/DBPN-Pytorch) [[PDF]](https://arxiv.org/pdf/1803.02735.pdf)
+   * Deep Back-Projection Networks for Super-Resolution(CVPR18), Haris et al.
+
 #### Attention-based
+Channel-wise attention for different scales.
+ * RCAN [[Web]](https://github.com/yulunzhang/RCAN) [[Code]](https://github.com/yulunzhang/RCAN) [[PDF]](https://arxiv.org/pdf/1807.02758.pdf)
+   * Image Super-Resolution Using Very Deep Residual Channel Attention Networks(ECCV18), Zhang et al.
+
 #### Advanced Convolution
+ * IRCNN [[Web]](https://github.com/cszn/IRCNN) [[Code]](https://github.com/cszn/IRCNN) [[PDF]](https://arxiv.org/pdf/1704.03264.pdf)
+   * Learning Deep CNN Denoiser Prior for Image Restoration (CVPR17), Zhang et al.
+   * Dilated Conv
+ * CARN-M [[Web]](https://github.com/nmhkahn/CARN-pytorch) [[Code]](https://github.com/nmhkahn/CARN-pytorch) [[PDF]](https://arxiv.org/pdf/1803.08664.pdf)
+   * Fast, Accurate, and Lightweight Super-Resolution with Cascading Residual Network(ECCV18), Ahn et al.
+   * Group Conv
+   
 #### Pixel-recursive
+*  [[Web]]() [[Code]]() [[PDF]]()
+   * (),  et al.
 #### Pyramid Pooling
 #### Wavelet Transform
 
