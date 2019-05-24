@@ -92,9 +92,9 @@ Better separate modeling performance, but increasing the parameter size greatly.
    * Deep Back-Projection Networks for Super-Resolution(CVPR18), Haris et al.
 
 #### Attention-based
-Channel-wise attention for different scales.
  * RCAN [[Web]](https://github.com/yulunzhang/RCAN) [[Code]](https://github.com/yulunzhang/RCAN) [[PDF]](https://arxiv.org/pdf/1807.02758.pdf)
    * Image Super-Resolution Using Very Deep Residual Channel Attention Networks(ECCV18), Zhang et al.
+   * Channel-wise attention for different scales.
  * Attention-FH [[Web]](https://github.com/ykshi/facehallucination) [[Code]](https://github.com/ykshi/facehallucination) [[PDF]](https://arxiv.org/pdf/1708.03132.pdf)
    * Attention-aware face hallucination via deep reinforcement learning(ICCV17), Cao et al.
    * Motivated by human attention shifting mechanism
