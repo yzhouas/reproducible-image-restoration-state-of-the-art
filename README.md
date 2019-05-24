@@ -205,7 +205,10 @@ TODO
 ## Image Enhancement
 TODO
 ## Image Restoration Tasks in a Single Model
-TODO
+ * SRMD [[Web]](https://github.com/cszn/SRMD) [[Code]](https://arxiv.org/pdf/1712.06116.pdf) [[PDF]](https://arxiv.org/abs/1904.03485)
+   * Learning a Single Convolutional Super-Resolution Network for Multiple Degradations (CVPR18), Zhou et al.
+   
+
 
 ## Novel Benchmark
 Novel benchmark is the ones captured in real-world senarios. 
