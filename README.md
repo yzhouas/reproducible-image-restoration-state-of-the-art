@@ -10,6 +10,7 @@ This collection is inspired and re-organized from the following sources,
    * [survey of SISR](https://arxiv.org/pdf/1902.06068.pdf)
 
 ## Image Super-resolution
+We follow the [survey of SISR](https://arxiv.org/pdf/1902.06068.pdf) to organize the related works in network design ideas. Lists under each subsections may have overlaps.
 ### Supervised Methods
 The deep learning based super-resolution starts from SRCNN.
  * SRCNN [[Web]](http://mmlab.ie.cuhk.edu.hk/projects/SRCNN.html) [[Code]](http://mmlab.ie.cuhk.edu.hk/projects/SRCNN.html) [[PDF]](http://personal.ie.cuhk.edu.hk/~ccloy/files/eccv_2014_deepresolution.pdf)
@@ -94,8 +95,12 @@ Better separate modeling performance, but increasing the parameter size greatly.
 Channel-wise attention for different scales.
  * RCAN [[Web]](https://github.com/yulunzhang/RCAN) [[Code]](https://github.com/yulunzhang/RCAN) [[PDF]](https://arxiv.org/pdf/1807.02758.pdf)
    * Image Super-Resolution Using Very Deep Residual Channel Attention Networks(ECCV18), Zhang et al.
-
-#### Advanced Convolution
+ * Attention-FH [[Web]](https://github.com/ykshi/facehallucination) [[Code]](https://github.com/ykshi/facehallucination) [[PDF]](https://arxiv.org/pdf/1708.03132.pdf)
+   * Attention-aware face hallucination via deep reinforcement learning(ICCV17), Cao et al.
+   * Motivated by human attention shifting mechanism
+   * Face hallucination task
+   
+#### Special Types of Convolution
  * IRCNN [[Web]](https://github.com/cszn/IRCNN) [[Code]](https://github.com/cszn/IRCNN) [[PDF]](https://arxiv.org/pdf/1704.03264.pdf)
    * Learning Deep CNN Denoiser Prior for Image Restoration (CVPR17), Zhang et al.
    * Dilated Conv
@@ -103,14 +108,27 @@ Channel-wise attention for different scales.
    * Fast, Accurate, and Lightweight Super-Resolution with Cascading Residual Network(ECCV18), Ahn et al.
    * Group Conv
    
-#### Pixel-recursive
-*  [[Web]]() [[Code]]() [[PDF]]()
-   * (),  et al.
-#### Pyramid Pooling
-#### Wavelet Transform
+#### Wavelet Transform Domain
+ * DWSR [[Web]](https://github.com/tT0NG/DWSRx3) [[Code]](https://github.com/tT0NG/DWSRx3) [[PDF]](http://openaccess.thecvf.com/content_cvpr_2017_workshops/w12/papers/Guo_Deep_Wavelet_Prediction_CVPR_2017_paper.pdf)
+   * Deep Wavelet Prediction for Image Super-resolution(CVPRW17),  et al.
+ * Wavelet-SRNet [[Web]](https://github.com/hhb072/WaveletSRNet) [[Code]](https://github.com/hhb072/WaveletSRNet) [[PDF]](http://openaccess.thecvf.com/content_ICCV_2017/papers/Huang_Wavelet-SRNet_A_Wavelet-Based_ICCV_2017_paper.pdf)
+   * Wavelet-SRNet: A Wavelet-based CNN for Multi-scale Face Super Resolution(ICCV17), Huang et al.
+   * For face super-resolution task
+ * MWCNN [[Web]](https://github.com/lpj0/MWCNN) [[Code]](https://github.com/lpj0/MWCNN) [[PDF]](https://arxiv.org/pdf/1805.07071.pdf)
+   * Multi-level Wavelet-CNN for Image Restoration(CVPR18), Liu et al.
+   
+#### Other Special Designs
+ * PixelSR [[Web]](https://arxiv.org/abs/1702.00783) [[Code]](https://github.com/nilboy/pixel-recursive-super-resolution) [[PDF]](https://arxiv.org/pdf/1702.00783.pdf)
+   * Pixel Recursive Super Resolution(ICCV17), Dahl et al.
+   * Generate pixel by pixel
+ * EDSR-PP[[Web]](https://github.com/cubeyoung/EDSR-PP) [[Code]](https://github.com/cubeyoung/EDSR-PP) [[PDF]](http://openaccess.thecvf.com/content_cvpr_2018_workshops/papers/w13/Park_Efficient_Module_Based_CVPR_2018_paper.pdf)
+   * Efficient module based singleimage super resolution for multiple problems(CVPRW18), Park et al.
+   * Incorporate pyramid pooling to EDSR: global and local contents included
 
 ### Unsupervised Methods
 #### Zero-shot
+ *  [[Web]]() [[Code]]() [[PDF]]()
+   * (),  et al.
 #### Weekly-supervised
 #### Deep Image Prior
 ## Image Denoising
