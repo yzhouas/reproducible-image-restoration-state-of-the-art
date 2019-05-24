@@ -1,5 +1,5 @@
 # Reproducible-image-restoration-state-of-the-art
-State-of-the-arts of deep-learning-based image restoration work. Some of the codes may not be official, please double check them. The lists under each subsections may have overlaps. This list is maintained by [Yuqian Zhou](http://yuqianzhou.com/) at [IFP UIUC](https://ifp-uiuc.github.io/).
+State-of-the-arts of deep-learning-based image restoration work, including image super-resolution, denoising, inpainting, enhancement, and general restoration etc. Some of the codes may not be official, please double check them. The lists under each subsections may have overlaps. This list is maintained by [Yuqian Zhou](http://yuqianzhou.com/) at [IFP UIUC](https://ifp-uiuc.github.io/).
 ## Information Sources
 This collection is inspired and re-organized from the following sources,
  * Denoising
@@ -126,11 +126,23 @@ Better separate modeling performance, but increasing the parameter size greatly.
    * Incorporate pyramid pooling to EDSR: global and local contents included
 
 ### Unsupervised Methods
+When lacking in paired LR-HR data, unsupervised methods will be more effective in real-world scenarios.
 #### Zero-shot
- *  [[Web]]() [[Code]]() [[PDF]]()
-   * (),  et al.
+ * ZSSR [[Web]](http://www.wisdom.weizmann.ac.il/~vision/zssr/) [[Code]](https://github.com/assafshocher/ZSSR) [[PDF]](https://arxiv.org/pdf/1712.06087.pdf)
+   * "Zero Shot" Super-Resolution using Deep Internal Learning(CVPR18),Shocher et al.
+   * Kernal estimation + image-specific CNN network trained with constructed datasets
+   * utilizing the internal image statistics
 #### Weekly-supervised
+ *  DegradationGAN [[Web]](https://github.com/jingyang2017/Face-and-Image-super-resolution) [[Code]](https://github.com/jingyang2017/Face-and-Image-super-resolution) [[PDF]](https://arxiv.org/pdf/1807.11458.pdf)
+   * To learn image super-resolution, use a gan to learn how to do image degradation first(ECCV18), Bulat et al.
+   * Face super-resolution task
+ * CinCGAN [[Web]](https://github.com/Junshk/CinCGAN-pytorch) [[Code]](https://github.com/Junshk/CinCGAN-pytorch) [[PDF]](http://openaccess.thecvf.com/content_cvpr_2018_workshops/papers/w13/Yuan_Unsupervised_Image_Super-Resolution_CVPR_2018_paper.pdf)
+   * Unsupervised Image Super-Resolutionusing Cycle-in-Cycle Generative Adversarial Network(CVPRW18), Yuan et al.
+   * Cycle Consistency
 #### Deep Image Prior
+ * Deep Image Prior [[Web]](https://dmitryulyanov.github.io/deep_image_prior) [[Code]](https://github.com/DmitryUlyanov/deep-image-prior) [[PDF]](https://arxiv.org/pdf/1711.10925.pdf)
+   * Deep Image Prior(CVPR18), Ulyanov et al.
+   * Handcrafted prior
 ## Image Denoising
 #### Normal CNN
  * TNRD [[Web]](http://www.icg.tugraz.at/Members/Chenyunjin/about-yunjin-chen) [[Code]](https://www.dropbox.com/s/8j6b880m6ddxtee/TNRD-Codes.zip?dl=0) [[PDF]](https://arxiv.org/pdf/1508.02848.pdf)
@@ -188,18 +200,12 @@ Better separate modeling performance, but increasing the parameter size greatly.
  * Meets High-level Tasks [[PDF]](https://arxiv.org/pdf/1706.04284.pdf) [[Code]](https://github.com/wenbihan/DeepDenoising) 
    * When Image Denoising Meets High-Level Vision Tasks: A Deep Learning Approach (IJCAI 2018), Liu et al.
 
-
 ## Image Inpainting
-
-
-
-
+TODO
+## Image Enhancement
+TODO
 ## Image Restoration Tasks in a Single Model
-
-
-
-
-
+TODO
 
 ## Novel Benchmark
 Novel benchmark is the ones captured in real-world senarios. 
@@ -212,15 +218,11 @@ Novel benchmark is the ones captured in real-world senarios.
    * Benchmarking Denoising Algorithms with Real Photographs (CVPR 2017), Tobias Plotz, Stefan Roth.
  * PolyU [[Web]](https://github.com/csjunxu/PolyU-Real-World-Noisy-Images-Dataset) [[Data]](https://github.com/csjunxu/PolyU-Real-World-Noisy-Images-Dataset) [[PDF]](https://arxiv.org/pdf/1804.02603.pdf)
    * Real-world Noisy Image Denoising: A New Benchmark (Arxiv), Xu et al.
-#### In-painting Benchmark
 
-#### Other Benchmark
-  
 ## Commonly Used Training/Evaluation Dataset for All Restoration Tasks
  * BSD [[Web]](https://www2.eecs.berkeley.edu/Research/Projects/CS/vision/bsds/)  
  * Kodak [[Web]](http://r0k.us/graphics/kodak/)
  * USC SIPI-Misc [[Web]](http://sipi.usc.edu/database/database.php?volume=misc) 
-
 
 ## Commonly Used Image Quality Metric Code
  * PSNR (Peak Signal-to-Noise Ratio) [[Wiki]](https://en.wikipedia.org/wiki/Peak_signal-to-noise_ratio) [[Matlab Code]](https://www.mathworks.com/help/images/ref/psnr.html) [[Python Code]](https://github.com/aizvorski/video-quality)
