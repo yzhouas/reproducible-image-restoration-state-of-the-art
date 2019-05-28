@@ -133,7 +133,7 @@ When lacking in paired LR-HR data, unsupervised methods will be more effective i
    * Kernal estimation + image-specific CNN network trained with constructed datasets
    * utilizing the internal image statistics
 #### Weekly-supervised
- *  DegradationGAN [[Web]](https://github.com/jingyang2017/Face-and-Image-super-resolution) [[Code]](https://github.com/jingyang2017/Face-and-Image-super-resolution) [[PDF]](https://arxiv.org/pdf/1807.11458.pdf)
+ * DegradationGAN [[Web]](https://github.com/jingyang2017/Face-and-Image-super-resolution) [[Code]](https://github.com/jingyang2017/Face-and-Image-super-resolution) [[PDF]](https://arxiv.org/pdf/1807.11458.pdf)
    * To learn image super-resolution, use a gan to learn how to do image degradation first(ECCV18), Bulat et al.
    * Face super-resolution task
  * CinCGAN [[Web]](https://github.com/Junshk/CinCGAN-pytorch) [[Code]](https://github.com/Junshk/CinCGAN-pytorch) [[PDF]](http://openaccess.thecvf.com/content_cvpr_2018_workshops/papers/w13/Yuan_Unsupervised_Image_Super-Resolution_CVPR_2018_paper.pdf)
@@ -198,7 +198,11 @@ When lacking in paired LR-HR data, unsupervised methods will be more effective i
  * Meets High-level Tasks [[PDF]](https://arxiv.org/pdf/1706.04284.pdf) [[Code]](https://github.com/wenbihan/DeepDenoising) 
    * When Image Denoising Meets High-Level Vision Tasks: A Deep Learning Approach (IJCAI 2018), Liu et al.
 ## Image Deblurring
-TODO
+ * IRCNN [[Web]](https://github.com/cszn/IRCNN) [[Code]](https://github.com/cszn/IRCNN) [[PDF]](http://openaccess.thecvf.com/content_cvpr_2017/papers/Zhang_Learning_Deep_CNN_CVPR_2017_paper.pdf)
+   * Learning Deep CNN Denoiser Prior for Image Restoration (CVPR17) , Zhang et al.
+ * DeblurGAN [[Web]](https://github.com/KupynOrest/DeblurGAN) [[Code]](https://github.com/KupynOrest/DeblurGAN) [[PDF]](https://arxiv.org/pdf/1711.07064.pdf)
+   * DeblurGAN: Blind Motion Deblurring Using Conditional Adversarial Networks(CVPR18), Kupyn et al.
+   
 ## Image Inpainting
 TODO
 ## Image Enhancement
