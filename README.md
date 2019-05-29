@@ -28,6 +28,9 @@ The deep learning based super-resolution starts from SRCNN.
    * Fast and Accurate Single Image Super-Resolution via Information Distillation Network (CVPR18), Hui et al.
  * EDSR  [[Web]](https://github.com/limbee/NTIRE2017) [[Code]](https://github.com/thstkdgus35/EDSR-PyTorch) [[PDF]](https://arxiv.org/pdf/1707.02921.pdf)
    * Enhanced Deep Residual Networks for Single Image Super-Resolution(NTIRE2017), Lim et al.
+ * WDSR  [[Web]](https://github.com/JiahuiYu/wdsr_ntire2018) [[Code]](https://github.com/JiahuiYu/wdsr_ntire2018) [[PDF]](https://arxiv.org/pdf/1808.08718.pdf)
+   * Wide Activation for Efficient and Accurate ImageSuper-Resolution(NTIRE2018), Yu et al.  
+   * Rank 1st model, wide activation
  * RCAN [[Web]](https://github.com/yulunzhang/RCAN) [[Code]](https://github.com/yulunzhang/RCAN) [[PDF]](https://arxiv.org/pdf/1807.02758.pdf)
    * Image Super-Resolution Using Very Deep Residual Channel Attention Networks(ECCV18), Zhang et al.
  * RDN [[Web]](https://github.com/yulunzhang/RDN) [[Code]](https://github.com/yulunzhang/RDN) [[PDF]](https://arxiv.org/pdf/1802.08797.pdf)
@@ -76,6 +79,9 @@ Better separate modeling performance, but increasing the parameter size greatly.
  * EDSR  [[Web]](https://github.com/limbee/NTIRE2017) [[Code]](https://github.com/thstkdgus35/EDSR-PyTorch) [[PDF]](https://arxiv.org/pdf/1707.02921.pdf)
    * Enhanced Deep Residual Networks for Single Image Super-Resolution(NTIRE2017), Lim et al.
    * Scale-specific Multi-path Learning
+ * WDSR  [[Web]](https://github.com/JiahuiYu/wdsr_ntire2018) [[Code]](https://github.com/JiahuiYu/wdsr_ntire2018) [[PDF]](https://arxiv.org/pdf/1808.08718.pdf)
+   * Wide Activation for Efficient and Accurate ImageSuper-Resolution(NTIRE2018), Yu et al.  
+   * Rank 1st model, wide activation
    
 #### Dense Connections
  * SR-DenseNet [[Web]](https://github.com/kweisamx/TensorFlow-SR-DenseNet) [[Code]](https://github.com/kweisamx/TensorFlow-SR-DenseNet) [[PDF]](http://openaccess.thecvf.com/content_ICCV_2017/papers/Tong_Image_Super-Resolution_Using_ICCV_2017_paper.pdf)
